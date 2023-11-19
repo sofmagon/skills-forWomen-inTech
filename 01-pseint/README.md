@@ -14,7 +14,7 @@
 | -------- | -------------------------------------------------------- | -------------------------------------- |
 | 01       | [Calcular el volúmen de una esfera](./01-volumen-esfera) | [🚀](https://01-pseint-js.netlify.app/) |
 | 02       |                                                          |                                        |
-| 03       | [Factorial de cualquier número](./03-factorial)          |                                        |
+| 03       | [Factorial de cualquier número](./03-factorial)          | [🚀](https://03-pseint-js.netlify.app/) |
 | 04       |                                                          |                                        |
 | 05       |                                                          |                                        |
 | 06       |                                                          |                                        |
