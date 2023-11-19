@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejericicio 01</title>
+    <!-- Responsividad -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Natural -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Ing. TICS. Sofía Martinelli">
+    <meta name="copyright" content="&copy; SOFMAGON 2023. Todos los derechos reservados.">
+    <meta name="description" content="Serie de ejercicios propuestos en PSeInt, transformados en código JS.">
+    <!-- Normalize CSS -->
+    <link rel="preload" href="./css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images" type="image/x-icon">
+    <!-- Estilos locales de CSS -->
+    <link rel="preload" href="./css/main.css" as="style">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="logos__img">
+                <div>
+                    <a href="https://www.hackademy.lat" target="_blank" rel="noopen noreferrer"><img class="logos_hackademy" src="./images/hackademy.png" alt="Hackademy Logo"></a>
+                </div>
+                <div>
+                    <a href="https://www.britishcouncil.org.mx/" target="_blank" rel="noopen noreferrer"><img class="logos_b-council" src="./images/british-council.png" alt="British Council Logo"></a>
+                </div>
+                <div>
+                    <a href="https://skillsfor.womenintech.mx/" target="_blank" rel="noopen noreferrer"><img class="logos_h-women" src="./images/hack-women.png" alt="Hack Women Logo"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="exercise exercise__container">
+        <section class="exercise__info">
+            <h1 class="exercise__heading">Calcular el volúmen de una esfera</h1>
+            <p class="exercise__text">La fórmula a emplear es la siguiente:</p>
+            <p class="exercise__text exercise__text--formula">Volumen = 3/4 * Pi * Radio^3</p>
+        </section>
+        <section class="exercise__calculator">
+            <p class="exercise__text">Ingresa la medida del radio en cm:
+                <input type="text" id="radio" class="exercise__input" value="20">
+                <input type="button" class="exercise__btn" onclick="calcularVolumen()" value="Calcular">
+                <div id="resultado" class="exercise__result"></div>
+            </p>
+        </section>
+    </main>
+
+    <footer class="footer footer__container">
+        <p class="footer-copy">Todos los Izquierdos y Derechos Reservados | Hecho con mucha <span>🍕</span> por <a class="footer__link" href="https://beacons.ai/sofmagon" target="_blank" rel="noopener noreferrer">SOFMAGON</a></p>
+    </footer>
+    <!-- Main JS -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
