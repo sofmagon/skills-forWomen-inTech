@@ -20,7 +20,7 @@
 | 06       |                                                          |                                        |
 | 07       |                                                          |                                        |
 | 08       | [Área de un triángulo](./08-area-triangulo)              | [🚀](https://08-pseint-js.netlify.app/) |
-| 09       | [Calcular incremento salarial](./09-incremento-salarial) |                                        |
+| 09       | [Calcular incremento salarial](./09-incremento-salarial) | [🚀](https://09-pseint-js.netlify.app/) |
 | 10       |                                                          |                                        |
 | 11       |                                                          |                                        |
 | 12       |                                                          |                                        |
