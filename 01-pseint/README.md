@@ -19,7 +19,7 @@
 | 05       |                                                          |                                        |
 | 06       |                                                          |                                        |
 | 07       |                                                          |                                        |
-| 08       | [Área de un triángulo](./08-area-triangulo)              |                                        |
+| 08       | [Área de un triángulo](./08-area-triangulo)              | [🚀](https://08-pseint-js.netlify.app/) |
 | 09       |                                                          |                                        |
 | 10       |                                                          |                                        |
 | 11       |                                                          |                                        |
