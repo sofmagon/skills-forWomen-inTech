@@ -12,7 +12,7 @@
 
 | # Number | Project name                                             | Live site                              |
 | -------- | -------------------------------------------------------- | -------------------------------------- |
-| 01       | [Calcular el volúmen de una esfera](./01-volumen_esfera) | [🚀](https://01-pseint-js.netlify.app/) |
+| 01       | [Calcular el volúmen de una esfera](./01-volumen-esfera) | [🚀](https://01-pseint-js.netlify.app/) |
 | 02       |                                                          |                                        |
 | 03       | [Factorial de cualquier número](./03-factorial)          |                                        |
 | 04       |                                                          |                                        |
