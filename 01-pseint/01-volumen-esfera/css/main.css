@@ -28,6 +28,12 @@ h1 {
     text-align: center;
 }
 
+@media (min-width: 768px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
 a {
     text-decoration: none;
 }
@@ -36,6 +42,12 @@ img {
     max-width: 100%;
     width: 100px;
     display: block;
+}
+
+@media (min-width: 768px) {
+    img {
+        width: 180px;
+    }
 }
 
 /*! === UTILITIES === */
@@ -60,6 +72,12 @@ img {
     margin-bottom: 2rem;
 }
 
+@media (min-width: 768px) {
+    [class $= "__btn"] {
+        width: 20rem;
+    }
+}
+
 [class $= "__btn"]:hover {
     background-color: var(--colorBlanco);
     color: var(--colorPrincipal);
@@ -81,6 +99,13 @@ img {
     align-items: center;
     justify-content: center;
     gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .logos__img {
+        flex-direction: row;
+        gap: 8rem;
+    }
 }
 
 .exercise {
@@ -107,6 +132,12 @@ img {
     margin-top: 2rem;
     width: 100%;
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    .exercise__input {
+        width: 30%;
+    }
 }
 
 .exercise__result {
