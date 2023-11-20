@@ -17,7 +17,7 @@
 | 03       | [Factorial de cualquier número](./03-factorial)          | [🚀](https://03-pseint-js.netlify.app/) |
 | 04       | [¿Número par o impar?](./04-numeroPar-impar)             | [🚀](https://04-pseint-js.netlify.app/) |
 | 05       |                                                          |                                        |
-| 06       | [Leer nombre usuario](./06-leer-nombre)                  |                                        |
+| 06       | [Leer nombre usuario](./06-leer-nombre)                  | [🚀](https://06-pseint-js.netlify.app/) |
 | 07       |                                                          |                                        |
 | 08       | [Área de un triángulo](./08-area-triangulo)              | [🚀](https://08-pseint-js.netlify.app/) |
 | 09       | [Calcular incremento salarial](./09-incremento-salarial) | [🚀](https://09-pseint-js.netlify.app/) |
