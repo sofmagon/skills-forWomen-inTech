@@ -13,7 +13,7 @@
 | # Number | Project name                                             | Live site                              |
 | -------- | -------------------------------------------------------- | -------------------------------------- |
 | 01       | [Calcular el volúmen de una esfera](./01-volumen-esfera) | [🚀](https://01-pseint-js.netlify.app/) |
-| 02       | [Orden ascendente de 5 números](./02-orden-5num)         |                                        |
+| 02       | [Orden ascendente de 5 números](./02-orden-5num)         | [🚀](https://02-pseint-js.netlify.app/) |
 | 03       | [Factorial de cualquier número](./03-factorial)          | [🚀](https://03-pseint-js.netlify.app/) |
 | 04       | [¿Número par o impar?](./04-numeroPar-impar)             | [🚀](https://04-pseint-js.netlify.app/) |
 | 05       |                                                          |                                        |
