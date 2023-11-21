@@ -22,7 +22,7 @@
 
 ## 🌎 Live demo
 
-[Click aquí]([🚀](https://01-pseint-js.netlify.app/))
+[Click aquí](https://02-pseint-js.netlify.app/)
 
 
 
