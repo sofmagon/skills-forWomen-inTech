@@ -22,7 +22,7 @@
 | 08       | [Área de un triángulo](./08-area-triangulo)              | [🚀](https://08-pseint-js.netlify.app/) |
 | 09       | [Calcular incremento salarial](./09-incremento-salarial) | [🚀](https://09-pseint-js.netlify.app/) |
 | 10       | [Tiempo - Distancia - Velocidad](./10-tiempo-vehiculo)   | [🚀](https://10-pseint-js.netlify.app/) |
-| 11       | [¿Es palíndromo?](./11-palindromo)                       |                                        |
+| 11       | [¿Es palíndromo?](./11-palindromo)                       | [🚀](https://11-pseint-js.netlify.app/) |
 | 12       | [¿Año bisiesto?](./12-bisiesto)                          | [🚀](https://12-pseint-js.netlify.app/) |
 
 
