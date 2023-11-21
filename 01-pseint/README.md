@@ -23,7 +23,7 @@
 | 09       | [Calcular incremento salarial](./09-incremento-salarial) | [🚀](https://09-pseint-js.netlify.app/) |
 | 10       | [Tiempo - Distancia - Velocidad](./10-tiempo-vehiculo)   | [🚀](https://10-pseint-js.netlify.app/) |
 | 11       |                                                          |                                        |
-| 12       | [¿Año bisiesto?](./12-bisiesto)                          |                                        |
+| 12       | [¿Año bisiesto?](./12-bisiesto)                          | [🚀](https://12-pseint-js.netlify.app/) |
 
 
 
