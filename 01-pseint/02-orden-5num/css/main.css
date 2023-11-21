@@ -144,6 +144,7 @@ img {
 .exercise__result {
     font-size: 2rem;
     color: var(--colorPrincipal);
+    margin-bottom: 2rem;
 }
 
 .footer {
