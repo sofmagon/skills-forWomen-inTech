@@ -142,7 +142,7 @@ img {
 
 .exercise__result {
     font-size: 2rem;
-    color: var(--colorPrincipal);
+    color: #000;
 }
 
 .footer {
