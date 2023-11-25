@@ -6,10 +6,10 @@
 
 ## 🍕 Projects
 
-| # Number | Project name                                  |
-| -------- | --------------------------------------------- |
-| 01       | [Pseudo code into JS](./01-pseint/README.md)  |
-| 02       | [Algorithms in JS](./02-algorithms/README.md) |
+| # Number | Project name                         |
+| -------- | ------------------------------------ |
+| 01       | [Pseudo code into JS](./01-pseint/)  |
+| 02       | [Algorithms in JS](./02-algorithms/) |
 
 
 
