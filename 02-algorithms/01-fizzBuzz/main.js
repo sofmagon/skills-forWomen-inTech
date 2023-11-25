@@ -1,10 +1,4 @@
-/* FizzBuzz.-
-
-Imprimir en pantalla los números del 1 a n
-Si el número es divisible entre 3, imprimir Fizz
-Si el número es divisible entre 5, imprimir Buzz
-Si es divisible entre 3 y 5, FizzBuzz
-*/
+// FizzBuzz
 
 function fizzBuzz(number) {
     for (let i = 1; i <= number; i++) {
