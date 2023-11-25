@@ -1,12 +1,4 @@
-/* Las cadenas más largas.-
-
-Dado un arreglo de cadenas regresar otro arreglo que contenga sólo las cadenas más largas.
-
-- Ejemplo, para:
-inputArray = ['sofy', 'pilar', 'roberto', 'matias', 'fernando'];
-- La salida debe ser:
-all_longestStrings(inputArray) = ['fernando'];
-*/
+// Las cadenas más largas
 
 const inputArray = ['sofy', 'pilar', 'roberto', 'matias', 'fernando'];
 
