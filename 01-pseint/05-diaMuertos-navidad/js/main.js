@@ -64,7 +64,7 @@ function calcular_diasMuertos_diasNavidad() {
             document.querySelector('#resultadoMuertos').innerHTML = "Mañana es Día de Muertos 💀";
         } else if (diaActual == 2) {
             // ¿Hoy?
-            document.querySelector('#resultadoMuertos').innerHTML = "Hoy es Día de Muerto 💀";
+            document.querySelector('#resultadoMuertos').innerHTML = "Hoy es Día de Muertos 💀";
         } else {
             document.querySelector('#resultadoMuertos').innerHTML = "Día de Muertos ya pasó.";
         }
