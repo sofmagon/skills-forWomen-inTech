@@ -16,7 +16,7 @@
 | 02       | [Orden ascendente de 5 números](./02-orden-5num)         | [🚀](https://02-pseint-js.netlify.app/) |
 | 03       | [Factorial de cualquier número](./03-factorial)          | [🚀](https://03-pseint-js.netlify.app/) |
 | 04       | [¿Número par o impar?](./04-numeroPar-impar)             | [🚀](https://04-pseint-js.netlify.app/) |
-| 05       |                                                          |                                        |
+| 05       | [Día de muertos y Navidad](./05-diaMuertos-navidad)      | [🚀](https://05-pseint-js.netlify.app/) |
 | 06       | [Leer nombre usuario](./06-leer-nombre)                  | [🚀](https://06-pseint-js.netlify.app/) |
 | 07       |                                                          |                                        |
 | 08       | [Área de un triángulo](./08-area-triangulo)              | [🚀](https://08-pseint-js.netlify.app/) |
