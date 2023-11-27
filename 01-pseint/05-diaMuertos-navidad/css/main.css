@@ -1,6 +1,6 @@
 /*! === CUSTOM PROPERTIES === */
 :root {
-    --colorPrincipal: #896901DE;
+    --colorPrincipal: #026312de;
     --colorBlanco: #F5F5F5;
     --fuenteHeading: 'DM Serif Display', serif;
     --fuenteBody: 'DM Mono', monospace;
@@ -18,7 +18,8 @@ html {
 body {
     font-size: 1.6rem;
     font-family: var(--fuenteBody);
-    background-color: var(--colorPrincipal);
+    background-image: url(../images/spooky-christmas.png);
+    background-size: 30%;
 }
 
 h1 {
@@ -149,10 +150,12 @@ img {
 
 .footer {
     margin-top: 5rem;
+    background-color: var(--colorBlanco);
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 .footer-copy {
-    color: var(--colorBlanco);
     margin: 0;
     text-align: center;
     font-size: 2rem;
@@ -160,6 +163,5 @@ img {
 }
 
 .footer__link {
-    color: var(--colorBlanco);
     font-weight: bold;
 }
