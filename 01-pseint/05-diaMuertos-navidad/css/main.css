@@ -18,7 +18,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: var(--fuenteBody);
-    background-image: url(../images/spooky-christmas.png);
+    background-image: linear-gradient(rgb(0 0 0 / 0.3), rgb(0 0 0 / 0.3)), url(../images/spooky-christmas.png);
     background-size: 30%;
 }
 
