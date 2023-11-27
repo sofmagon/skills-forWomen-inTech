@@ -18,7 +18,7 @@
 | 04       | [¿Número par o impar?](./04-numeroPar-impar)             | [🚀](https://04-pseint-js.netlify.app/) |
 | 05       | [Día de muertos y Navidad](./05-diaMuertos-navidad)      | [🚀](https://05-pseint-js.netlify.app/) |
 | 06       | [Leer nombre usuario](./06-leer-nombre)                  | [🚀](https://06-pseint-js.netlify.app/) |
-| 07       |                                                          |                                        |
+| 07       | [¿Cuántos días has vivido?](./07-dias-vividos)           |                                        |
 | 08       | [Área de un triángulo](./08-area-triangulo)              | [🚀](https://08-pseint-js.netlify.app/) |
 | 09       | [Calcular incremento salarial](./09-incremento-salarial) | [🚀](https://09-pseint-js.netlify.app/) |
 | 10       | [Tiempo - Distancia - Velocidad](./10-tiempo-vehiculo)   | [🚀](https://10-pseint-js.netlify.app/) |
