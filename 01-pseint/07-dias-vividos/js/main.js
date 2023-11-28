@@ -21,11 +21,8 @@ function calcular_diasVividos() {
         addOne = 0;
     }
 
-    /* Calcular los días que restan del año de nacimiento (ahí comienzo a vivir),
-    con base en el mes y día de nacimiento ***
+    /* Obtener días no vividos del año de nacimiento (antes de nacer) ***
     */
-    // Suponiendo que bornMonth y bornDay son las variables que contienen el mes y el día de nacimiento, respectivamente.
-
     switch (bornMonth) {
         case 1:
             daysLeft_bornYear = 365 - bornDay;
@@ -67,8 +64,7 @@ function calcular_diasVividos() {
             document.querySelector('#resultado').innerHTML = "Intenta de nuevo.";
     }
 
-    /* Obtener los días transcurridos del año en curso con base al mes actual,
-    y restárselos al año completo ***
+    /* Obtener días restantes año actual, son días que aún no deben contar ***
     */
     switch (currentMonth) {
         case 1:
@@ -111,8 +107,17 @@ function calcular_diasVividos() {
             document.querySelector('#resultado').innerHTML = "Intenta de nuevo.";
     }
 
-    /* Resultado final, total =
-    Días vividos + año bisiesto actual (+1 si es que lo es) + días restantes del año de nacimiento - días restantes año actual */
+    /* Resultado final,
+    total =
+    + Días vividos con base a la edad
+    + año bisiesto actual (+1 si es que lo es)
+    + días no vividos del año de nacimiento
+    - días restantes año actual */
     let total = (livedDays_byAge + addOne + daysLeft_bornYear) - daysLeft_currentYear;
     document.querySelector('#resultado').innerHTML = "Has vivido un total de " + total + " días";
+
+    console.log(`Días vividos por edad: ${livedDays_byAge}`);
+    console.log(`¿Año bisiesto? ${addOne}`);
+    console.log(`Días no vividos del año de nacimiento: ${daysLeft_bornYear}`);
+    console.log(`Días restantes del año actual: ${daysLeft_currentYear}`);
 }
