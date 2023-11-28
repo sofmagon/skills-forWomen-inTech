@@ -18,9 +18,8 @@
 | 04       | [El primer duplicado](./04-primer-duplicado)                 |
 | 05       | [La distancia de Levenshtein](./05-distancia-levenshtein/main.js) |
 | 06       | [Recursión e Iteración](./06-recursion-iteracion/main.js)    |
-| 07       |                                                              |
+| 07       | [N reinas](./07-n-reinas/main.js)                            |
 | 08       |                                                              |
-| 09       |                                                              |
 
 
 
