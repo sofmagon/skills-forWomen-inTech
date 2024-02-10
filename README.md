@@ -6,13 +6,15 @@
 
 ## 🍕 Projects
 
-| # Number | Project name                         |
-| -------- | ------------------------------------ |
-| 01       | [Pseudo code into JS](./01-pseint/)  |
-| 02       | [Algorithms in JS](./02-algorithms/) |
+| # Number | Project name                                      |
+| -------- | ------------------------------------------------- |
+| 01       | [Pseudo código en JavaScript](./01-pseint/)       |
+| 02       | [Algoritmos en JavaScript](./02-algorithms/)      |
+| 03       | [Fase: Pilotaje - Lugares Seguros](./03-pilotaje) |
+|          |                                                   |
 
 
 
-## 🌈 My Links
+## 🌈 My Website
 
-> Made with ❤️ 🍕 🌮 by [SOFMAGON](https://beacons.ai/sofmagon)
+> Made with ❤️ 🍕 🌮 by [SOFMAGON](https://sofmagon.com/) 👈🏻
