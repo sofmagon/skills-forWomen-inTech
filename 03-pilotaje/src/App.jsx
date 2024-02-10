@@ -3,6 +3,7 @@ import Navbar from './layout/Navigation/Navbar'
 import Home from './layout/Home/Home'
 import Footer from './layout/Footer/Footer'
 import ListadoLugares from './components/Listado/ListadoLugares'
+import RegistrarLugar from './components/Forms/RegistrarLugar'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
 			<Routes>
 				<Route exact path='/' element={<Home />} />
 				<Route exact path='/verTodos' element={<ListadoLugares />} />
-				<Route exact path='/registrar' />
+				<Route exact path='/registrar' element={<RegistrarLugar />} />
 			</Routes>
 			<Footer />
 		</BrowserRouter>
