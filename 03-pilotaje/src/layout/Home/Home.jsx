@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import num1 from '../assets/numero-1.png'
-import num2 from '../assets/numero-2.png'
-import num3 from '../assets/numero-3.png'
-import imgBienvenida from '../assets/mujeres_2.png'
+import num1 from '../../assets/numero-1.png'
+import num2 from '../../assets/numero-2.png'
+import num3 from '../../assets/numero-3.png'
+import imgBienvenida from '../../assets/mujeres_2.png'
 import './Home.css'
 
 const Home = () => {
