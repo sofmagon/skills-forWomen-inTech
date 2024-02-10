@@ -2,9 +2,11 @@
 
 ![logo](https://i.ibb.co/KWHyRyX/Logo-Programa.png)
 
+### Total time spent [![wakatime](https://wakatime.com/badge/github/sofmagon/skills-forWomen-inTech.svg)](https://wakatime.com/badge/github/sofmagon/skills-forWomen-inTech?style=for-the-badge)
 
 
-## 🍕 Proyectos
+
+### 🍕 Proyectos
 
 | # Número | Nombre del proyecto                               |
 | -------- | ------------------------------------------------- |
@@ -15,6 +17,6 @@
 
 
 
-## 🌈 Mi sitio web
+### 🌈 Mi sitio web
 
 > Hecho con ❤️ 🍕 🌮 por [SOFMAGON](https://sofmagon.com/) 👈🏻
