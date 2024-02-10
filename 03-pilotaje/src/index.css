@@ -1,0 +1,179 @@
+/*! === CUSTOM PROPERTIES === */
+:root {
+	--headingFont: 'Calistoga', serif;
+	--mainFont: 'Lato', sans-serif;
+	--white: #F1F1F1;
+	--black: #000;
+	--mainColor: #C6426E;
+	--secondColor: #642B73;
+	--gradient: linear-gradient(to right, var(--mainColor), var(--secondColor));
+	--separation: 5rem;
+}
+
+/*! === GLOBAL === */
+html {
+	/* PX TO REM: 62.5% of 16px = 10px; 1rem = 10px */
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: var(--mainFont);
+	background-color: var(--white);
+	line-height: 1.8;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+h1,
+h2,
+h3 {
+	margin: 0;
+	line-height: normal;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+@media (min-width: 768px) {
+	h1 {
+		font-size: 4rem;
+	}
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+	h2 {
+		font-size: 4rem;
+	}
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+	h3 {
+		font-size: 2.5rem;
+	}
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/*! === UTILITIES === */
+.contenedor {
+	width: 90%;
+	max-width: 120rem;
+	margin: 0 auto;
+}
+
+[class$="__contenedor"] {
+	width: 90%;
+	max-width: 120rem;
+	margin: 0 auto;
+}
+
+[class$="__heading"] {
+	font-weight: 900;
+	text-align: center;
+	margin: var(--separation) 0;
+	font-family: var(--headingFont);
+}
+
+/*! === COMPONENTS === */
+
+.boton {
+	background: var(--gradient);
+	color: var(--white);
+	font-size: 2rem;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 1rem 0;
+	border-radius: 10px;
+	margin-bottom: 3rem;
+	/* 1. cambiar display */
+	display: inline-block;
+	/* 2. ocupar el 100% en mobile */
+	width: 100%;
+	transition: background-color 300ms ease-in;
+	border: none;
+}
+
+@media (min-width: 768px) {
+	.boton {
+		padding: 0.5rem 0;
+		width: 50%;
+	}
+}
+
+.boton:hover {
+	background: none;
+	background-color: var(--white);
+	color: var(--black);
+	border: 2px solid var(--mainColor);
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.boton--secundario {
+	background: none;
+	color: var(--black);
+	border: 2px solid var(--mainColor);
+	margin: 3rem 0;
+}
+
+@media (min-width: 768px) {
+	.boton--secundario {
+		display: block;
+		margin: 3rem auto;
+	}
+}
+
+.boton--secundario:hover {
+	background: var(--gradient);
+	color: var(--white);
+}
+
+.boton--form {
+	cursor: pointer;
+	border: none;
+	display: block;
+	margin: 3rem auto;
+	padding: 1.5rem 0;
+}
+
+.boton--editar {
+	background-image: none;
+	background-color: var(--mainColor);
+	margin-bottom: 0;
+	padding: 1.5rem 0;
+}
+
+.boton--borrar {
+	background-image: none;
+	background-color: var(--secondColor);
+	margin-bottom: 0;
+}
+
+.botones {
+	display: flex;
+	gap: 2rem;
+}
