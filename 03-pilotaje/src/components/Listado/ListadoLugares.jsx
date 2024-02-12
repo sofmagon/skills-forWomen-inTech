@@ -17,7 +17,7 @@ const ListadoLugares = () => {
 			<h1 className="todos__heading">Listado completo</h1>
 			<section className="todos__grid">
 				{
-					lugares.map(({ id, nombre, descripcion, calle, numero, colonia, cp, ciudad, estado, foto }) => {
+					lugares.map(({ id, nombre, descripcion, calle, numero, colonia, cp, ciudad, estado, foto }) => (
 
 						<div key={id} className="lugar">
 							<img src={foto} alt={`Imagen: ${nombre}`} />
@@ -39,7 +39,7 @@ const ListadoLugares = () => {
 								</div>
 							</div>
 						</div>
-					})
+					))
 				}
 			</section>
 		</main>
