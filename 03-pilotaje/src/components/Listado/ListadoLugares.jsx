@@ -10,7 +10,22 @@ const ListadoLugares = () => {
 	// realizar la solicitud a la API una vez que el componente se monte
 	useEffect(() => {
 
-	})
+		const obtenerLugares = async () => {
+			try {
+				// la respuesta se asigna a resultado
+				const resultado = await axios.get(url);
+				// actualizar el estado
+				setLugares(resultado.data);
+			} catch (error) {
+				console.error('ERROR AL OBTENER LUGARES', error);
+			}
+		}
+
+		obtenerLugares()
+
+		// el efecto se ejecutará solo cuando la URL cambie, lo que garantiza que la solicitud HTTP se realice solo cuando sea necesario
+
+	}, [url])
 
 	return (
 		<main className="todos todos__contenedor">
