@@ -27,6 +27,19 @@ const ListadoLugares = () => {
 
 	}, [url])
 
+	const handleEliminarLugar = async (id) => {
+		try {
+			await axios.delete(`${url}/${id}`);
+			// Después de eliminar el lugar, actualizar la lista de lugares
+			const nuevosLugares = lugares.filter(lugar => lugar.id !== id);
+			setLugares(nuevosLugares);
+		} catch (error) {
+			console.error('ERROR AL ELIMINAR LUGAR', error);
+		}
+
+		obtenerLugares()
+	}
+
 	return (
 		<main className="todos todos__contenedor">
 			<h1 className="todos__heading">Listado completo</h1>
