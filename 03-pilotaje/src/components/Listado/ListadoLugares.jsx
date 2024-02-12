@@ -1,7 +1,16 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './ListadoLugares.css'
 
 const ListadoLugares = () => {
+
+	const url = 'https://sofmagon-fakeapi.vercel.app/lugares';
+	const [lugares, setLugares] = useState([]);
+
+	// realizar la solicitud a la API una vez que el componente se monte
+	useEffect(() => {
+
+	})
+
 	return (
 		<main className="todos todos__contenedor">
 			<h1 className="todos__heading">Listado completo</h1>
