@@ -16,27 +16,25 @@ const ListadoLugares = () => {
 			<h1 className="todos__heading">Listado completo</h1>
 			<section className="todos__grid">
 				{
-					lugares.map(({ id, nombre, descripcion, caller, numero, colonia, cp, estado, foto }) => {
+					lugares.map(({ id, nombre, descripcion, calle, numero, colonia, cp, estado, foto }) => {
 
 						<div key={id} className="lugar">
-							<img src="https://picsum.photos/1000/700" alt="Imagen favorito 01" />
+							<img src={foto} alt={`Imagen: ${nombre}`} />
 							<div className="lugar__textos">
-								<h3>Nombre Lugar 01</h3>
-								<p>
-									DESCRIPCIÓN. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Architecto aliquam possimus ut commodi sit error.
-								</p>
-								<p>
-									DOMICILIO con todo lo que implica desde la base de datos: Calle y
-									Número. Colonia. Códgio Postal. Ciudad. Estado.
-								</p>
+								<h3>{nombre}</h3>
+								<p>{descripcion}</p>
+
+								<p className='lugar__datos'>{`${calle} ${numero}, ${colonia}, C.P. ${cp}`}</p>
+
+								<p className='lugar__datos'>{`${ciudad}, ${estado}`}</p>
+
 								<div className="botones">
-									<a className="boton boton--editar" href="./editar.html">
+									<button className="boton boton--editar" href={`./editar/${id}`}>
 										Editar
-									</a>
-									<a className="boton boton--borrar" href="#">
+									</button>
+									<button className="boton boton--borrar" href="#">
 										Borrar
-									</a>
+									</button>
 								</div>
 							</div>
 						</div>
