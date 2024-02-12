@@ -48,7 +48,7 @@ const ListadoLugares = () => {
 									<button className="boton boton--editar" href={`./editar/${id}`}>
 										Editar
 									</button>
-									<button className="boton boton--borrar" href="#">
+									<button className="boton boton--borrar" onClick={() => handleEliminarLugar(id)}>
 										Borrar
 									</button>
 								</div>
