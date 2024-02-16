@@ -42,11 +42,7 @@ const EditarLugar = () => {
 						<input type="file" id="fotografia" accept="image/png, image/jpeg" />
 					</div>
 				</fieldset>
-				<input
-					className="boton boton--form"
-					type="submit"
-					defaultValue="Realizar cambios"
-				/>
+				<button className='boton boton--form'>Realizar cambios</button>
 			</form>
 		</main>
 	)
