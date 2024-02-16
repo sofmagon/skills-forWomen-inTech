@@ -87,21 +87,25 @@ const Home = () => {
 			<main className="favoritos contenedor">
 				<h2 className="favoritos__heading">Nuestros Favoritos</h2>
 				<div className="listado-favoritos">
-					<div className="favorito">
-						<img src="https://picsum.photos/1000/700" alt="Imagen favorito 01" />
-						<div className="favorito__textos">
-							<h3>Nombre Lugar 01</h3>
-							<p>
-								Aquí vamos a mostrar su descripción. Lorem ipsum dolor sit amet
-								consectetur adipisicing elit. Architecto aliquam possimus ut commodi sit
-								error veniam..
-							</p>
-							<p>
-								Y aquí el domicilio. Lorem ipsum dolor sit amet consectetur adipisicing
-								elit. Autem, in?
-							</p>
-						</div>
-					</div>
+					{
+						favoritos.map(({ id, nombre, descripcion, calle, numero, colonia, cp, ciudad, estado, foto }) => (
+							<div className="favorito">
+								<img src="https://picsum.photos/1000/700" alt="Imagen favorito 01" />
+								<div className="favorito__textos">
+									<h3>Nombre Lugar 01</h3>
+									<p>
+										Aquí vamos a mostrar su descripción. Lorem ipsum dolor sit amet
+										consectetur adipisicing elit. Architecto aliquam possimus ut commodi sit
+										error veniam..
+									</p>
+									<p>
+										Y aquí el domicilio. Lorem ipsum dolor sit amet consectetur adipisicing
+										elit. Autem, in?
+									</p>
+								</div>
+							</div>
+						))
+					}
 				</div>
 				<Link className="boton boton--secundario" to={'/verTodos'}>
 					Ver Todos
