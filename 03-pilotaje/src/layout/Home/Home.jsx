@@ -5,6 +5,7 @@ import num2 from '../../assets/numero-2.png'
 import num3 from '../../assets/numero-3.png'
 import imgBienvenida from '../../assets/mujeres_2.png'
 import './Home.css'
+import axios from 'axios'
 
 const Home = () => {
 	const url = 'https://sofmagon-fakeapi.vercel.app/lugares';
