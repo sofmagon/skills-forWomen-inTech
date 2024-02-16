@@ -1,18 +1,19 @@
+.formulario {
+	padding: 0 1rem;
+}
+
 @media (min-width: 768px) {
 	.formulario {
 		max-width: 80rem;
 		margin: 0 auto;
+		padding: 0;
 	}
 }
 
 .formulario__fielset {
 	border: 1px solid #999;
 	border-radius: 10px;
-	margin-bottom: var(--separation);
-}
-
-.formulario__fielset--editar {
-	margin: var(--separation) 0;
+	margin-bottom: 2rem;
 }
 
 .formulario legend {
@@ -23,32 +24,34 @@
 	text-transform: uppercase;
 	font-weight: 900;
 	padding: 1rem;
-	margin-bottom: 4rem;
+	margin-bottom: 2rem;
 }
 
 .campo {
-	display: flex;
-	flex-direction: column;
 	max-width: 90%;
-	margin: 0 auto 2rem auto;
+	margin: 0 auto;
 }
 
 .campo label {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	font-weight: bold;
 }
 
 .campo textarea {
-	height: 15rem;
-	resize: none;
+	height: 10rem;
+	resize: vertical;
 }
 
 .campo input,
 .campo textarea {
+	/* Ajustar el ancho de los campos al 100% del contenedor */
+	width: 100%;
+	/* Incluir el padding en el ancho del campo */
+	box-sizing: border-box;
 	border: 1px solid #E1E1E1;
 	font-family: var(--mainFont);
-	font-size: 2rem;
+	font-size: 1.6rem;
 	color: var(--secondColor);
 	outline: none;
-	padding: 1rem 0;
+	padding: 1rem;
 }
