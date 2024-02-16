@@ -64,7 +64,7 @@ const Home = () => {
 				</div>
 			</div>
 
-			<section className="funciona contenedor">
+			<section className="funciona __contenedor">
 				<h2 className="funciona__heading">Nuestra Propuesta</h2>
 				<div className="funciona__iconos">
 					<div className="icono">
@@ -95,7 +95,7 @@ const Home = () => {
 			</section>
 
 			<section className="sobre">
-				<div className="sobre__grid contenedor">
+				<div className="sobre__grid __contenedor">
 					<div className="sobre__textos">
 						<h2 className="sobre__heading">¿Quiénes somos?</h2>
 						<p>
@@ -107,7 +107,7 @@ const Home = () => {
 				</div>
 			</section >
 
-			<main className="favoritos contenedor">
+			<main className="favoritos __contenedor">
 				<h2 className="favoritos__heading">Nuestros Favoritos</h2>
 				<div className="listado-favoritos">
 					{
