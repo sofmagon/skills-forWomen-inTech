@@ -28,6 +28,16 @@ const Home = () => {
 		// un array vacío como segundo argumento: el efecto solo se ejecutará una vez después de que el componente se monte.
 	}, [])
 
+	// devuelve una selección aleatoria de elementos del array original sin modificarlo
+	function getFavAleatorios(array, cantidad) {
+		// Clonar el array original para evitar modificarlo
+		const copiaArray = [...array];
+		// Método .sort() con una función de comparación que genera un valor entre -0.5 y 0.5 para mezclar aleatoriamente los elementos del array.
+		copiaArray.sort(() => Math.random() - 0.5);
+		// Devolver los primeros 6 elementos del array mezclado
+		return copiaArray.slice(0, cantidad)
+	}
+
 	return (
 		<>
 			<div className='__contenedor'>
