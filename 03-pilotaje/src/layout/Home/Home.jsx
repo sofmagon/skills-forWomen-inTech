@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import num1 from '../../assets/numero-1.png'
 import num2 from '../../assets/numero-2.png'
@@ -7,6 +7,13 @@ import imgBienvenida from '../../assets/mujeres_2.png'
 import './Home.css'
 
 const Home = () => {
+	const url = 'https://sofmagon-fakeapi.vercel.app/lugares';
+	const [favoritos, setFavoritos] = useState([]);
+
+	useEffect(() => {
+
+	})
+
 	return (
 		<>
 			<div className='__contenedor'>
