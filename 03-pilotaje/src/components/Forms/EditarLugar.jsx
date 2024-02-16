@@ -6,7 +6,7 @@ const EditarLugar = () => {
 		<main className="registrar registrar__contenedor">
 			<h1 className="registrar__heading">Cambiar información</h1>
 			<form className="formulario">
-				<img src="https://picsum.photos/1000/700" alt="Imagen sitio elegido" />
+				<img src="https://picsum.photos/1000/700" className='img__editar' alt="Imagen sitio elegido" />
 				<fieldset className="formulario__fielset formulario__fielset--editar">
 					<legend>Edita los datos</legend>
 					<div className="campo">
