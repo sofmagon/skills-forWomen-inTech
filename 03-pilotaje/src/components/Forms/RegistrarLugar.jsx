@@ -41,11 +41,7 @@ const RegistrarLugar = () => {
 						<input type="file" id="fotografia" accept="image/png, image/jpeg" />
 					</div>
 				</fieldset>
-				<input
-					className="boton boton--form"
-					type="submit"
-					defaultValue="Agregar lugar"
-				/>
+				<button className='boton boton--form'>Agregar lugar</button>
 			</form>
 		</main>
 	)
