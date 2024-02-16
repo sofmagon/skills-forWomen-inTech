@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './ListadoLugares.css'
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 const ListadoLugares = () => {
 
@@ -58,9 +59,9 @@ const ListadoLugares = () => {
 								<p className='lugar__datos'>{`${ciudad}, ${estado}`}</p>
 
 								<div className="botones">
-									<button className="boton boton--editar" href={`./editar/${id}`}>
+									<Link to={'/editar'} className="boton boton--editar" >
 										Editar
-									</button>
+									</Link>
 									<button className="boton boton--borrar" onClick={() => handleEliminarLugar(id)}>
 										Borrar
 									</button>
