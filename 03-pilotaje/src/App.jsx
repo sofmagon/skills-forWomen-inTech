@@ -4,6 +4,7 @@ import Home from './layout/Home/Home'
 import Footer from './layout/Footer/Footer'
 import ListadoLugares from './components/Listado/ListadoLugares'
 import RegistrarLugar from './components/Forms/RegistrarLugar'
+import EditarLugar from './components/Forms/EditarLugar'
 
 function App() {
 
