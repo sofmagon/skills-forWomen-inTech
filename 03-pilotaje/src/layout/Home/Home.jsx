@@ -90,18 +90,14 @@ const Home = () => {
 					{
 						favoritos.map(({ id, nombre, descripcion, calle, numero, colonia, cp, ciudad, estado, foto }) => (
 							<div className="favorito">
-								<img src="https://picsum.photos/1000/700" alt="Imagen favorito 01" />
+								<img src={foto} alt={`Imagen ${nombre}`} />
 								<div className="favorito__textos">
-									<h3>Nombre Lugar 01</h3>
-									<p>
-										Aquí vamos a mostrar su descripción. Lorem ipsum dolor sit amet
-										consectetur adipisicing elit. Architecto aliquam possimus ut commodi sit
-										error veniam..
-									</p>
-									<p>
-										Y aquí el domicilio. Lorem ipsum dolor sit amet consectetur adipisicing
-										elit. Autem, in?
-									</p>
+									<h3>{nombre}</h3>
+									<p>{descripcion}</p>
+
+									<p className='lugar__datos'>{`${calle} ${numero}, ${colonia}, C.P. ${cp}`}</p>
+
+									<p className='lugar__datos'>{`${ciudad}, ${estado}`}</p>
 								</div>
 							</div>
 						))
