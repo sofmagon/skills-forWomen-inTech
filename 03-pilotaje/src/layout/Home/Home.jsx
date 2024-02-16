@@ -12,8 +12,21 @@ const Home = () => {
 	const [favoritos, setFavoritos] = useState([]);
 
 	useEffect(() => {
+		axios.get(url)
+			.then(respuesta => {
+				// extraer los datos de la respuesta y asignar a datos: array de objetos
+				const datos = respuesta.data;
+				// Tomar sólo 6 del array de objetos
+				const favAleatorios = getFavAleatorios(datos, 6);
+				// actualiazando el estado
+				setFavoritos(favAleatorios);
+			})
+			.catch(error => {
+				console.error('Error al obtener datos de la API:', error);
+			});
 
-	})
+		// un array vacío como segundo argumento: el efecto solo se ejecutará una vez después de que el componente se monte.
+	}, [])
 
 	return (
 		<>
