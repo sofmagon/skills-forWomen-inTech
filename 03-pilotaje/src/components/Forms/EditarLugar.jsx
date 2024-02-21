@@ -6,6 +6,11 @@ import { useNavigate, useParams } from 'react-router-dom';
 const EditarLugar = () => {
 	const url = 'https://sofmagon-fakeapi.vercel.app/lugares';
 
+	const navegacion = useNavigate();
+
+	// Obtener el ID de la URL
+	const { id } = useParams();
+
 	const [lugar, setLugar] = useState({
 		nombre: '',
 		descripcion: '',
@@ -19,11 +24,6 @@ const EditarLugar = () => {
 	})
 
 	const { nombre, descripcion, calle, numero, colonia, cp, ciudad, estado, foto } = lugar;
-
-	// Obtener el ID de la URL
-	const { id } = useParams();
-
-	const navegacion = useNavigate();
 
 	// este hook se ejecuta al cargar la app una vez ,[]
 	useEffect(() => {
