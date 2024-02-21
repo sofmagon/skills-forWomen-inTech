@@ -44,6 +44,14 @@ const EditarLugar = () => {
 		setLugar({ ...lugar, [e.target.name]: e.target.value })
 	}
 
+	const enviarDatos = async (e) => {
+		e.preventDefault();
+		// url/:id y el objeto actualizado por la función set
+		await axios.put(`${url}/${id}`, lugar);
+		// una vez hecho, redirigir al inicio
+		navegacion('/');
+	}
+
 	return (
 		<main className="registrar registrar__contenedor">
 			<h1 className="registrar__heading">Cambiar información</h1>
