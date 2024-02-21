@@ -1,7 +1,10 @@
 import React from 'react'
 import './Forms.css'
+import axios from 'axios';
 
 const EditarLugar = () => {
+	const url = 'https://sofmagon-fakeapi.vercel.app/lugares';
+
 	return (
 		<main className="registrar registrar__contenedor">
 			<h1 className="registrar__heading">Cambiar información</h1>
