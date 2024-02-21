@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Forms.css'
 import axios from 'axios';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 
 const EditarLugar = () => {
 	const url = 'https://sofmagon-fakeapi.vercel.app/lugares';
@@ -22,6 +22,8 @@ const EditarLugar = () => {
 
 	// Obtener el ID de la URL
 	const { id } = useParams();
+
+	const navegacion = useNavigate();
 
 	return (
 		<main className="registrar registrar__contenedor">
