@@ -69,27 +69,27 @@ const EditarLugar = () => {
 					</div>
 					<div className="campo">
 						<label htmlFor="calle">Calle:</label>
-						<input type="text" id="calle" name='calle' required="" onChange={(e) => onInputChange(e)} />
+						<input type="text" id="calle" name='calle' required="" value={calle} onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="num">Número:</label>
-						<input type="text" id="num" name='num' required="" onChange={(e) => onInputChange(e)} />
+						<input type="text" id="num" name='num' required="" value={numero} onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="colonia">Colonia:</label>
-						<input type="text" id="colonia" name='colonia' required="" onChange={(e) => onInputChange(e)} />
+						<input type="text" id="colonia" name='colonia' required="" value={colonia} onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="cp">Código Postal:</label>
-						<input type="text" id="cp" name='cp' required="" onChange={(e) => onInputChange(e)} />
+						<input type="text" id="cp" name='cp' required="" value={cp} onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="ciudad">Ciudad:</label>
-						<input type="text" id="ciudad" name='ciudad' required="" onChange={(e) => onInputChange(e)} />
+						<input type="text" id="ciudad" name='ciudad' required="" value={ciudad} onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="estado">Estado:</label>
-						<input type="text" id="estado" name='estado' required="" onChange={(e) => onInputChange(e)} />
+						<input type="text" id="estado" name='estado' required="" value={estado} onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="estado">Fotografía:</label>
