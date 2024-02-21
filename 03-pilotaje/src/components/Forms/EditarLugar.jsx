@@ -36,6 +36,14 @@ const EditarLugar = () => {
 		setLugar(resultado.data);
 	}
 
+	// para cada input en su atributo onChange
+	const onInputChange = (e) => {
+		// función set: 1.- spread operator para expandir los atributos del objeto lugar. 2.- para el evento que se generó: recuperar el elemento que lo disparó y su valor.
+
+		// si coincide con alguna de las propiedades del objeto lugar, se modificará su valor y se actualizará el objeto automáticamente
+		setLugar({ ...lugar, [e.target.name]: e.target.value })
+	}
+
 	return (
 		<main className="registrar registrar__contenedor">
 			<h1 className="registrar__heading">Cambiar información</h1>
