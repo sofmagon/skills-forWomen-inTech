@@ -59,7 +59,7 @@ const ListadoLugares = () => {
 								<p className='lugar__datos'>{`${ciudad}, ${estado}`}</p>
 
 								<div className="botones">
-									<Link to={'/editar'} className="boton boton--editar" >
+									<Link to={`/editar/${id}`} className="boton boton--editar" >
 										Editar
 									</Link>
 									<button className="boton boton--borrar" onClick={() => handleEliminarLugar(id)}>
