@@ -61,11 +61,11 @@ const EditarLugar = () => {
 					<legend>Edita los datos</legend>
 					<div className="campo">
 						<label htmlFor="nombre">Nombre:</label>
-						<input type="text" id="nombre" name='nombre' required="" onChange={(e) => onInputChange(e)} />
+						<input type="text" id="nombre" name='nombre' required="" value={nombre} onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="descripcion">Descripción:</label>
-						<textarea id="descripcion" name='descripcion' defaultValue={""} onChange={(e) => onInputChange(e)} />
+						<textarea id="descripcion" name='descripcion' value={descripcion} onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="callenum">Calle y Número:</label>
