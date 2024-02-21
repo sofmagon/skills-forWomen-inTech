@@ -1,9 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Forms.css'
 import axios from 'axios';
 
 const EditarLugar = () => {
 	const url = 'https://sofmagon-fakeapi.vercel.app/lugares';
+
+	const [lugar, setLugar] = useState({
+		nombre: '',
+		descripcion: '',
+		calle: '',
+		numero: '',
+		colonia: '',
+		cp: '',
+		ciudad: '',
+		estado: '',
+		foto: ''
+	})
 
 	return (
 		<main className="registrar registrar__contenedor">
