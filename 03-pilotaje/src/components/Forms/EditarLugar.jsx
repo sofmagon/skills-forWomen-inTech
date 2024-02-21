@@ -45,35 +45,35 @@ const EditarLugar = () => {
 					<legend>Edita los datos</legend>
 					<div className="campo">
 						<label htmlFor="nombre">Nombre:</label>
-						<input type="text" id="nombre" name='nombre' required="" />
+						<input type="text" id="nombre" name='nombre' required="" onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="descripcion">Descripción:</label>
-						<textarea id="descripcion" name='descripcion' defaultValue={""} />
+						<textarea id="descripcion" name='descripcion' defaultValue={""} onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="callenum">Calle y Número:</label>
-						<input type="text" id="callenum" name='callenum' required="" />
+						<input type="text" id="callenum" name='callenum' required="" onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="colonia">Colonia:</label>
-						<input type="text" id="colonia" name='colonia' required="" />
+						<input type="text" id="colonia" name='colonia' required="" onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="cp">Código Postal:</label>
-						<input type="text" id="cp" name='cp' required="" />
+						<input type="text" id="cp" name='cp' required="" onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="ciudad">Ciudad:</label>
-						<input type="text" id="ciudad" name='ciudad' required="" />
+						<input type="text" id="ciudad" name='ciudad' required="" onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="estado">Estado:</label>
-						<input type="text" id="estado" name='estado' required="" />
+						<input type="text" id="estado" name='estado' required="" onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="estado">Fotografía:</label>
-						<input type="file" id="fotografia" name='fotografia' accept="image/png, image/jpeg" />
+						<input type="file" id="fotografia" name='fotografia' accept="image/png, image/jpeg" onChange={(e) => onInputChange(e)} />
 					</div>
 				</fieldset>
 				<button className='boton boton--form'>Realizar cambios</button>
