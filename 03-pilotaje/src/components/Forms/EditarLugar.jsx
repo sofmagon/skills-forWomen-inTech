@@ -30,6 +30,12 @@ const EditarLugar = () => {
 		cargarLugares();
 	}, [])
 
+	const cargarLugares = async () => {
+		// id proviene de useParams
+		const resultado = await axios.get(`${url}/${id}`);
+		setLugar(resultado.data);
+	}
+
 	return (
 		<main className="registrar registrar__contenedor">
 			<h1 className="registrar__heading">Cambiar información</h1>
