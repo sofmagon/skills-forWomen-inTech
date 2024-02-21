@@ -1,10 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Forms.css'
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
 const RegistrarLugar = () => {
 	const navegacion = useNavigate();
+
+	const [lugar, setLugar] = useState({
+		nombre: '',
+		descripcion: '',
+		calle: '',
+		numero: '',
+		colonia: '',
+		cp: '',
+		ciudad: '',
+		estado: '',
+		foto: ''
+	})
 
 	return (
 		<main className="registrar registrar__contenedor">
