@@ -76,7 +76,7 @@ const EditarLugar = () => {
 						<input type="file" id="fotografia" name='fotografia' accept="image/png, image/jpeg" onChange={(e) => onInputChange(e)} />
 					</div>
 				</fieldset>
-				<button className='boton boton--form'>Realizar cambios</button>
+				<button type='submit' className='boton boton--form'>Realizar cambios</button>
 			</form>
 		</main>
 	)
