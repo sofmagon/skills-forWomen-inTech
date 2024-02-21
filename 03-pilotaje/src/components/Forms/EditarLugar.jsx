@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Forms.css'
 import axios from 'axios';
 import { useNavigate, useParams } from 'react-router-dom';
@@ -24,6 +24,11 @@ const EditarLugar = () => {
 	const { id } = useParams();
 
 	const navegacion = useNavigate();
+
+	// este hook se ejecuta al cargar la app una vez ,[]
+	useEffect(() => {
+		cargarLugares();
+	}, [])
 
 	return (
 		<main className="registrar registrar__contenedor">
