@@ -17,6 +17,8 @@ const EditarLugar = () => {
 		foto: ''
 	})
 
+	const { nombre, descripcion, calle, numero, colonia, cp, ciudad, estado, foto } = lugar;
+
 	return (
 		<main className="registrar registrar__contenedor">
 			<h1 className="registrar__heading">Cambiar información</h1>
