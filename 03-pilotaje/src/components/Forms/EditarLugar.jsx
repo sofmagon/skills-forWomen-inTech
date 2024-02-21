@@ -56,7 +56,7 @@ const EditarLugar = () => {
 		<main className="registrar registrar__contenedor">
 			<h1 className="registrar__heading">Cambiar información</h1>
 			<form onSubmit={(e) => enviarDatos(e)} className="formulario">
-				<img src={foto} alt={`Imagen: ${nombre}`} />
+				<img src={foto} className='img__editar' alt={`Imagen: ${nombre}`} />
 				<fieldset className="formulario__fielset formulario__fielset--editar">
 					<legend>Edita los datos</legend>
 					<div className="campo">
