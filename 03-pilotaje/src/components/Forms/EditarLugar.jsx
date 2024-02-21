@@ -68,8 +68,12 @@ const EditarLugar = () => {
 						<textarea id="descripcion" name='descripcion' value={descripcion} onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
-						<label htmlFor="callenum">Calle y Número:</label>
-						<input type="text" id="callenum" name='callenum' required="" onChange={(e) => onInputChange(e)} />
+						<label htmlFor="calle">Calle:</label>
+						<input type="text" id="calle" name='calle' required="" onChange={(e) => onInputChange(e)} />
+					</div>
+					<div className="campo">
+						<label htmlFor="num">Número:</label>
+						<input type="text" id="num" name='num' required="" onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="colonia">Colonia:</label>
