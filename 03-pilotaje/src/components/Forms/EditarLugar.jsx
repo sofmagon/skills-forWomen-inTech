@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Forms.css'
 import axios from 'axios';
+import { useParams } from 'react-router-dom';
 
 const EditarLugar = () => {
 	const url = 'https://sofmagon-fakeapi.vercel.app/lugares';
@@ -18,6 +19,9 @@ const EditarLugar = () => {
 	})
 
 	const { nombre, descripcion, calle, numero, colonia, cp, ciudad, estado, foto } = lugar;
+
+	// Obtener el ID de la URL
+	const { id } = useParams();
 
 	return (
 		<main className="registrar registrar__contenedor">
