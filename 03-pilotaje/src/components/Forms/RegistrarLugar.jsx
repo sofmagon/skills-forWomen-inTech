@@ -17,8 +17,12 @@ const RegistrarLugar = () => {
 						<textarea id="descripcion" defaultValue={""} />
 					</div>
 					<div className="campo">
-						<label htmlFor="callenum">Calle y Número:</label>
-						<input type="text" id="callenum" required="" />
+						<label htmlFor="calle">Calle:</label>
+						<input type="text" id="calle" name='calle' required="" onChange={(e) => onInputChange(e)} />
+					</div>
+					<div className="campo">
+						<label htmlFor="num">Número:</label>
+						<input type="text" id="num" name='num' required="" onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="colonia">Colonia:</label>
