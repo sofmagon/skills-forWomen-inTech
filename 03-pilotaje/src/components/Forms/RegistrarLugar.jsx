@@ -1,5 +1,6 @@
 import React from 'react'
 import './Forms.css'
+import axios from 'axios';
 
 const RegistrarLugar = () => {
 	return (
