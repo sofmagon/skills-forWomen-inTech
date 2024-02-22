@@ -11,8 +11,6 @@ import './charts/ChartjsConfig';
 
 // Import pages
 import Dashboard from './pages/Dashboard';
-import Orders from './pages/ecommerce/Orders';
-import Invoices from './pages/ecommerce/Invoices';
 import Shop from './pages/ecommerce/Shop';
 import Shop2 from './pages/ecommerce/Shop2';
 import Product from './pages/ecommerce/Product';
@@ -87,8 +85,6 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Dashboard />} />
-        <Route path="/ecommerce/orders" element={<Orders />} />
-        <Route path="/ecommerce/invoices" element={<Invoices />} />
         <Route path="/ecommerce/shop" element={<Shop />} />
         <Route path="/ecommerce/shop-2" element={<Shop2 />} />
         <Route path="/ecommerce/product" element={<Product />} />
