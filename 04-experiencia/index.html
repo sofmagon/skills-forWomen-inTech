@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- SEO Natural -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Ing. TICS. Sofía Martinelli">
+  <meta name="copyright" content="&copy; SOFMAGON 2024. Todos los derechos reservados.">
+  <meta name="description"
+    content="New Ventures Group. Fase Experiencia. Skills For Women In Tech (Hackademy + British Council México).">
+  <!-- Humans TXT -->
+  <link rel="author" href="humans.txt">
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/src/images/nv-blue.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Ventures Group</title>
+  <script>
+    if (localStorage.theme === 'dark' || !('theme' in localStorage)) {
+      document.querySelector('html').classList.add('dark');
+      document.querySelector('html').style.colorScheme = 'dark';
+    } else {
+      document.querySelector('html').classList.remove('dark');
+      document.querySelector('html').style.colorScheme = 'light';
+    }
+  </script>
+</head>
+
+<body class="font-inter antialiased bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-400">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <script>
+    if (localStorage.getItem('sidebar-expanded') == 'true') {
+      document.querySelector('body').classList.add('sidebar-expanded');
+    } else {
+      document.querySelector('body').classList.remove('sidebar-expanded');
+    }
+  </script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
