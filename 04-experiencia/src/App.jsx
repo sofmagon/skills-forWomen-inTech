@@ -49,7 +49,6 @@ import BadgePage from './pages/component/BadgePage';
 import AvatarPage from './pages/component/AvatarPage';
 import TooltipPage from './pages/component/TooltipPage';
 import AccordionPage from './pages/component/AccordionPage';
-import IconsPage from './pages/component/IconsPage';
 
 function App() {
 
@@ -104,7 +103,6 @@ function App() {
         <Route path="/component/avatar" element={<AvatarPage />} />
         <Route path="/component/tooltip" element={<TooltipPage />} />
         <Route path="/component/accordion" element={<AccordionPage />} />
-        <Route path="/component/icons" element={<IconsPage />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </>
