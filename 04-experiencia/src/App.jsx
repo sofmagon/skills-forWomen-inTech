@@ -6,7 +6,6 @@ import {
 } from 'react-router-dom';
 
 import './css/style.css';
-
 import './charts/ChartjsConfig';
 
 // Import pages
@@ -26,9 +25,6 @@ import Forum from './pages/community/Forum';
 import ForumPost from './pages/community/ForumPost';
 import Meetups from './pages/community/Meetups';
 import MeetupsPost from './pages/community/MeetupsPost';
-import CreditCards from './pages/finance/CreditCards';
-import Transactions from './pages/finance/Transactions';
-import TransactionDetails from './pages/finance/TransactionDetails';
 import JobListing from './pages/job/JobListing';
 import JobPost from './pages/job/JobPost';
 import CompanyProfile from './pages/job/CompanyProfile';
@@ -99,9 +95,6 @@ function App() {
         <Route path="/community/forum-post" element={<ForumPost />} />
         <Route path="/community/meetups" element={<Meetups />} />
         <Route path="/community/meetups-post" element={<MeetupsPost />} />
-        <Route path="/finance/cards" element={<CreditCards />} />
-        <Route path="/finance/transactions" element={<Transactions />} />
-        <Route path="/finance/transaction-details" element={<TransactionDetails />} />
         <Route path="/job/job-listing" element={<JobListing />} />
         <Route path="/job/job-post" element={<JobPost />} />
         <Route path="/job/company-profile" element={<CompanyProfile />} />
