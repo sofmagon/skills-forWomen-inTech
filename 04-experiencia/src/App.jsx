@@ -29,10 +29,6 @@ import Inbox from './pages/Inbox';
 import Calendar from './pages/Calendar';
 import Account from './pages/settings/Account';
 import Notifications from './pages/settings/Notifications';
-import Apps from './pages/settings/Apps';
-import Plans from './pages/settings/Plans';
-import Billing from './pages/settings/Billing';
-import Feedback from './pages/settings/Feedback';
 import PageNotFound from './pages/utility/PageNotFound';
 import Signin from './pages/Signin';
 import Signup from './pages/Signup';
@@ -88,10 +84,6 @@ function App() {
         <Route path="/calendar" element={<Calendar />} />
         <Route path="/settings/account" element={<Account />} />
         <Route path="/settings/notifications" element={<Notifications />} />
-        <Route path="/settings/apps" element={<Apps />} />
-        <Route path="/settings/plans" element={<Plans />} />
-        <Route path="/settings/billing" element={<Billing />} />
-        <Route path="/settings/feedback" element={<Feedback />} />
         <Route path="/utility/404" element={<PageNotFound />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
