@@ -16,7 +16,6 @@ import Cart from './pages/ecommerce/Cart';
 import Cart2 from './pages/ecommerce/Cart2';
 import Cart3 from './pages/ecommerce/Cart3';
 import Pay from './pages/ecommerce/Pay';
-import Campaigns from './pages/Campaigns';
 import UsersTabs from './pages/community/UsersTabs';
 import UsersTiles from './pages/community/UsersTiles';
 import Profile from './pages/community/Profile';
@@ -81,7 +80,6 @@ function App() {
         <Route path="/ecommerce/cart-2" element={<Cart2 />} />
         <Route path="/ecommerce/cart-3" element={<Cart3 />} />
         <Route path="/ecommerce/pay" element={<Pay />} />
-        <Route path="/campaigns" element={<Campaigns />} />
         <Route path="/community/users-tabs" element={<UsersTabs />} />
         <Route path="/community/users-tiles" element={<UsersTiles />} />
         <Route path="/community/profile" element={<Profile />} />
