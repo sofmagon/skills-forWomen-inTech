@@ -82,7 +82,7 @@ function Sidebar({
           <NavLink end to="/" className="block">
             <img
               src='src/images/nv-blue.png'
-              width={50} />
+              width={150} />
           </NavLink>
         </div>
         {/* Links */}
