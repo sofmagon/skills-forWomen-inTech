@@ -33,12 +33,7 @@ import Apps from './pages/settings/Apps';
 import Plans from './pages/settings/Plans';
 import Billing from './pages/settings/Billing';
 import Feedback from './pages/settings/Feedback';
-import Changelog from './pages/utility/Changelog';
-import Roadmap from './pages/utility/Roadmap';
-import Faqs from './pages/utility/Faqs';
-import EmptyState from './pages/utility/EmptyState';
 import PageNotFound from './pages/utility/PageNotFound';
-import KnowledgeBase from './pages/utility/KnowledgeBase';
 import Signin from './pages/Signin';
 import Signup from './pages/Signup';
 import ResetPassword from './pages/ResetPassword';
@@ -97,12 +92,7 @@ function App() {
         <Route path="/settings/plans" element={<Plans />} />
         <Route path="/settings/billing" element={<Billing />} />
         <Route path="/settings/feedback" element={<Feedback />} />
-        <Route path="/utility/changelog" element={<Changelog />} />
-        <Route path="/utility/roadmap" element={<Roadmap />} />
-        <Route path="/utility/faqs" element={<Faqs />} />
-        <Route path="/utility/empty-state" element={<EmptyState />} />
         <Route path="/utility/404" element={<PageNotFound />} />
-        <Route path="/utility/knowledge-base" element={<KnowledgeBase />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/reset-password" element={<ResetPassword />} />
