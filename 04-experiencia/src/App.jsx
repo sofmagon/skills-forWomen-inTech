@@ -25,9 +25,6 @@ import Forum from './pages/community/Forum';
 import ForumPost from './pages/community/ForumPost';
 import Meetups from './pages/community/Meetups';
 import MeetupsPost from './pages/community/MeetupsPost';
-import JobListing from './pages/job/JobListing';
-import JobPost from './pages/job/JobPost';
-import CompanyProfile from './pages/job/CompanyProfile';
 import Messages from './pages/Messages';
 import TasksKanban from './pages/tasks/TasksKanban';
 import TasksList from './pages/tasks/TasksList';
@@ -95,9 +92,6 @@ function App() {
         <Route path="/community/forum-post" element={<ForumPost />} />
         <Route path="/community/meetups" element={<Meetups />} />
         <Route path="/community/meetups-post" element={<MeetupsPost />} />
-        <Route path="/job/job-listing" element={<JobListing />} />
-        <Route path="/job/job-post" element={<JobPost />} />
-        <Route path="/job/company-profile" element={<CompanyProfile />} />
         <Route path="/messages" element={<Messages />} />
         <Route path="/tasks/kanban" element={<TasksKanban />} />
         <Route path="/tasks/list" element={<TasksList />} />
