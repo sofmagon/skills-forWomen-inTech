@@ -26,8 +26,6 @@ import ForumPost from './pages/community/ForumPost';
 import Meetups from './pages/community/Meetups';
 import MeetupsPost from './pages/community/MeetupsPost';
 import Messages from './pages/Messages';
-import TasksKanban from './pages/tasks/TasksKanban';
-import TasksList from './pages/tasks/TasksList';
 import Inbox from './pages/Inbox';
 import Calendar from './pages/Calendar';
 import Account from './pages/settings/Account';
@@ -93,8 +91,6 @@ function App() {
         <Route path="/community/meetups" element={<Meetups />} />
         <Route path="/community/meetups-post" element={<MeetupsPost />} />
         <Route path="/messages" element={<Messages />} />
-        <Route path="/tasks/kanban" element={<TasksKanban />} />
-        <Route path="/tasks/list" element={<TasksList />} />
         <Route path="/inbox" element={<Inbox />} />
         <Route path="/calendar" element={<Calendar />} />
         <Route path="/settings/account" element={<Account />} />
