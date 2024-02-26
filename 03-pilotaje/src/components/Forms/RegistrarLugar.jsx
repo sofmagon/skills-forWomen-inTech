@@ -20,8 +20,6 @@ const RegistrarLugar = () => {
 
 	const { nombre, descripcion, calle, numero, colonia, cp, ciudad, estado, foto } = lugar;
 
-
-
 	return (
 		<main className="registrar registrar__contenedor">
 			<h1 className="registrar__heading">Registra tu lugar seguro</h1>
@@ -30,11 +28,11 @@ const RegistrarLugar = () => {
 					<legend>Ingresa los datos</legend>
 					<div className="campo">
 						<label htmlFor="nombre">Nombre del lugar:</label>
-						<input type="text" id="nombre" required="" />
+						<input type="text" id="nombre" name='nombre' required="" />
 					</div>
 					<div className="campo">
 						<label htmlFor="descripcion">Descripción:</label>
-						<textarea id="descripcion" defaultValue={""} />
+						<textarea id="descripcion" name='descripcion' />
 					</div>
 					<div className="campo">
 						<label htmlFor="calle">Calle:</label>
@@ -46,23 +44,23 @@ const RegistrarLugar = () => {
 					</div>
 					<div className="campo">
 						<label htmlFor="colonia">Colonia:</label>
-						<input type="text" id="colonia" required="" />
+						<input type="text" id="colonia" name='colonia' required="" />
 					</div>
 					<div className="campo">
 						<label htmlFor="cp">Código Postal:</label>
-						<input type="text" id="cp" required="" />
+						<input type="text" id="cp" name='cp' required="" />
 					</div>
 					<div className="campo">
 						<label htmlFor="ciudad">Ciudad:</label>
-						<input type="text" id="ciudad" required="" />
+						<input type="text" id="ciudad" name='ciudad' required="" />
 					</div>
 					<div className="campo">
 						<label htmlFor="estado">Estado:</label>
-						<input type="text" id="estado" required="" />
+						<input type="text" id="estado" name='estado' required="" />
 					</div>
 					<div className="campo">
 						<label htmlFor="fotografia">Fotografía:</label>
-						<input type="file" id="fotografia" accept="image/png, image/jpeg" />
+						<input type="file" id="fotografia" name='fotografia' accept="image/png, image/jpeg" />
 					</div>
 				</fieldset>
 				<button className='boton boton--form'>Agregar lugar</button>
