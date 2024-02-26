@@ -31,7 +31,7 @@ const RegistrarLugar = () => {
 	return (
 		<main className="registrar registrar__contenedor">
 			<h1 className="registrar__heading">Registra tu lugar seguro</h1>
-			<form className="formulario">
+			<form onSubmit={(e) => enviarDatos(e)} className="formulario">
 				<fieldset className="formulario__fielset">
 					<legend>Ingresa los datos</legend>
 					<div className="campo">
