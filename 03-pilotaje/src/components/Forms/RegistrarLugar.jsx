@@ -27,7 +27,7 @@ const RegistrarLugar = () => {
 				<fieldset className="formulario__fielset">
 					<legend>Ingresa los datos</legend>
 					<div className="campo">
-						<label htmlFor="nombre">Nombre del lugar:</label>
+						<label htmlFor="nombre">Nombre:</label>
 						<input type="text" id="nombre" name='nombre' required="" value={nombre} onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
@@ -63,7 +63,7 @@ const RegistrarLugar = () => {
 						<input type="file" id="fotografia" name='fotografia' accept="image/png, image/jpeg" onChange={(e) => onInputChange(e)} />
 					</div>
 				</fieldset>
-				<button className='boton boton--form'>Agregar lugar</button>
+				<button type='submit' className='boton boton--form'>Agregar lugar</button>
 			</form>
 		</main>
 	)
