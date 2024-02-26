@@ -23,10 +23,7 @@ const ListadoLugares = () => {
 		}
 
 		obtenerLugares()
-
-		// el efecto se ejecutará solo cuando la URL cambie, lo que garantiza que la solicitud HTTP se realice solo cuando sea necesario
-
-	}, [url])
+	}, [])
 
 	const handleEliminarLugar = async (id) => {
 		try {
