@@ -57,7 +57,7 @@ const RegistrarLugar = () => {
 					</div>
 					<div className="campo">
 						<label htmlFor="num">Número:</label>
-						<input type="text" id="num" name='num' required="" value={numero} onChange={(e) => onInputChange(e)} />
+						<input type="text" id="numero" name='numero' required="" value={numero} onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="colonia">Colonia:</label>
