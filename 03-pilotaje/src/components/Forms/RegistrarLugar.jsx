@@ -28,35 +28,35 @@ const RegistrarLugar = () => {
 					<legend>Ingresa los datos</legend>
 					<div className="campo">
 						<label htmlFor="nombre">Nombre del lugar:</label>
-						<input type="text" id="nombre" name='nombre' required="" />
+						<input type="text" id="nombre" name='nombre' required="" value={nombre} />
 					</div>
 					<div className="campo">
 						<label htmlFor="descripcion">Descripción:</label>
-						<textarea id="descripcion" name='descripcion' />
+						<textarea id="descripcion" name='descripcion' value={descripcion} />
 					</div>
 					<div className="campo">
 						<label htmlFor="calle">Calle:</label>
-						<input type="text" id="calle" name='calle' required="" onChange={(e) => onInputChange(e)} />
+						<input type="text" id="calle" name='calle' required="" value={calle} onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="num">Número:</label>
-						<input type="text" id="num" name='num' required="" onChange={(e) => onInputChange(e)} />
+						<input type="text" id="num" name='num' required="" value={numero} onChange={(e) => onInputChange(e)} />
 					</div>
 					<div className="campo">
 						<label htmlFor="colonia">Colonia:</label>
-						<input type="text" id="colonia" name='colonia' required="" />
+						<input type="text" id="colonia" name='colonia' required="" value={colonia} />
 					</div>
 					<div className="campo">
 						<label htmlFor="cp">Código Postal:</label>
-						<input type="text" id="cp" name='cp' required="" />
+						<input type="text" id="cp" name='cp' required="" value={cp} />
 					</div>
 					<div className="campo">
 						<label htmlFor="ciudad">Ciudad:</label>
-						<input type="text" id="ciudad" name='ciudad' required="" />
+						<input type="text" id="ciudad" name='ciudad' required="" value={ciudad} />
 					</div>
 					<div className="campo">
 						<label htmlFor="estado">Estado:</label>
-						<input type="text" id="estado" name='estado' required="" />
+						<input type="text" id="estado" name='estado' required="" value={estado} />
 					</div>
 					<div className="campo">
 						<label htmlFor="fotografia">Fotografía:</label>
