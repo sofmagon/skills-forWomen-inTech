@@ -28,6 +28,15 @@ const RegistrarLugar = () => {
 		setLugar({ ...lugar, [e.target.name]: e.target.value })
 	}
 
+	const enviarDatos = async (e) => {
+		e.preventDefault();
+		const url = 'https://sofmagon-fakeapi.vercel.app/lugares';
+		// url y el objeto actualizado por la función set
+		await axios.post(url, lugar);
+		// una vez hecho, redirigir al home
+		navegacion('/');
+	}
+
 	return (
 		<main className="registrar registrar__contenedor">
 			<h1 className="registrar__heading">Registra tu lugar seguro</h1>
