@@ -46,10 +46,15 @@ const EditarLugar = () => {
 
 	const enviarDatos = async (e) => {
 		e.preventDefault();
-		// url/:id y el objeto actualizado por la función set
-		await axios.put(`${url}/${id}`, lugar);
-		// una vez hecho, redirigir al inicio
-		navigate('/');
+		try {
+			// url/:id y el objeto actualizado por la función set
+			await axios.put(`${url}/${id}`, lugar);
+			// una vez hecho, redirigir al inicio
+			console.log('Redireccionando al home');
+			navigate('/');
+		} catch (error) {
+			console.log('Error PUT: ', error);
+		}
 	}
 
 	return (
