@@ -6,7 +6,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 const EditarLugar = () => {
 	const url = 'https://sofmagon-fakeapi.vercel.app/lugares';
 
-	const navegacion = useNavigate();
+	const navigate = useNavigate();
 
 	// Obtener el ID de la URL
 	const { id } = useParams();
@@ -49,7 +49,7 @@ const EditarLugar = () => {
 		// url/:id y el objeto actualizado por la función set
 		await axios.put(`${url}/${id}`, lugar);
 		// una vez hecho, redirigir al inicio
-		navegacion('/');
+		navigate('/');
 	}
 
 	return (
