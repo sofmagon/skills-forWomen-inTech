@@ -1,0 +1,23 @@
+{
+	"name": "New Ventures Group",
+	"short_name": "NV Group",
+	"lang": "en-US",
+	"display": "standalone",
+	"display_override": [
+		"window-controls-overlay"
+	],
+	"theme_color": "#00BCB4",
+	"background_color": "#FD6F63",
+	"icons": [
+		{
+			"src": "/icons/nvg-192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/icons/nvg-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
