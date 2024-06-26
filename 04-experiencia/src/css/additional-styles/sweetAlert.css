@@ -1,0 +1,59 @@
+/* SIGNIN BUTTONS */
+
+.alert-success {
+	background-color: #00BCB4 !important;
+	color: white !important;
+	border: none !important;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+}
+
+.alert-success:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.alert-error {
+	background-color: #FD6F63 !important;
+	color: white !important;
+	border: none !important;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+}
+
+.alert-error:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+/* YES OR NO BUTTONS (delete) */
+
+.alert-confirm {
+	background-color: #00BCB4 !important;
+	color: white !important;
+	border: none !important;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+}
+
+.alert-confirm:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.alert-cancel {
+	background-color: #FD6F63 !important;
+	color: white !important;
+	border: none !important;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+}
+
+.alert-cancel:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
