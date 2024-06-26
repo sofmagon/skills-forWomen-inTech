@@ -52,13 +52,17 @@ Toda esta aplicación web está desarrollada sobre una plantilla pre-fabricada c
 
 [Click here](https://sfwit-experiencia.netlify.app/) 👈🏻
 
-**Permisos completos**
-Email: user1@email.com
-Password: nv123
+**Permisos administrador**
+
+| Email           | Password |
+| --------------- | -------- |
+| user1@email.com | nv123    |
 
 **Sólo lectura**
-Email: user4@email.com
-Password: nv000
+
+| Email           | Password |
+| --------------- | -------- |
+| user4@email.com | nv000    |
 
 
 
@@ -68,7 +72,7 @@ Password: nv000
 
 ## 🟣 Miembros del Equipo
 
-Frontend: [@sofmagon](https://github.com/sofmagon) 
+Frontend: [@sofmagon](https://github.com/sofmagon)
 Backend: [@noemi777](https://github.com/noemi777) • [@LoadING-718](https://github.com/LoadING-718) • [@Liliastronauta](https://github.com/Liliastronauta)
 
 
